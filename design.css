@@ -1,0 +1,63 @@
+.welcome-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    font-family: Pompadur;
+}
+
+
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(18893.ttf)
+   }
+nav{
+    content: '';
+    display: block;
+    height: 1000px;
+    width: 4%;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    z-index: -1;
+}
+
+.homelink{
+    position: absolute;
+    top: 50%;
+    left: 1.85%;
+    transform: translate(-50%, -50%);
+
+}
+
+.ava{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+body.dark{
+    background: #050505;
+    color:rgb(255, 255, 255);
+}
+
+.pod{
+    font-family: Pompadur;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    font-family: Pompadur;
+}
+
+.but{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
